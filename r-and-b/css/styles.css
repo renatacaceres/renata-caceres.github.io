@@ -77,6 +77,12 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.intro {
+  margin: 50px auto;
+  text-align: center;
+  width: 50%;
+}
+
 .sessions {
   margin: 50px auto;
   line-height: 1;
