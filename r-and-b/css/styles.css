@@ -102,4 +102,6 @@ a:hover {
     .menu, .main, .right {
         width:100%;
         font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
     }
