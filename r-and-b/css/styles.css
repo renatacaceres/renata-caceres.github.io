@@ -96,3 +96,29 @@ a:hover {
   padding: 50px 0 20px 0;
   width: auto;
 }
+
+    /* For mobile phones: */
+    
+@media (max-width:600px) {
+
+        .top-container {
+            width: 90%,
+            padding: 10px,
+            align-content: center;
+        }
+        
+        h1 {
+            font-size: 3rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+        }
+        p {
+           font-size: 30px; 
+        }
+        
+        .sessions {
+            width: 100%,
+        }
+    }
