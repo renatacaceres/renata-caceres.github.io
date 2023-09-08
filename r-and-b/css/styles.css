@@ -101,6 +101,9 @@ a:hover {
     
 @media (max-width:600px) {
 
+        padding-left: 5px;
+        padding-right: 5px;
+  
         .top-container {
             width: 90%,
             padding: 10px,
@@ -119,6 +122,10 @@ a:hover {
         }
         
         .sessions {
-            width: 100%,
+            width: 100%;
+        }
+
+        .us {
+          width: 100%;
         }
     }
