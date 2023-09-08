@@ -96,17 +96,3 @@ a:hover {
   padding: 50px 0 20px 0;
   width: auto;
 }
-
-/* @media only screen and (max-width:620px) {
-    /* For mobile phones: */
-       .intro, .sessions, .top-container, .bottom-container { 
-        width:100%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 10px;
-        
-        h1{
-            font-size: 3rem;
-        }
-    }
-    } */
