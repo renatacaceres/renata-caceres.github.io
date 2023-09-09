@@ -111,7 +111,7 @@ a:hover {
 @media (max-width:600px) {
 
   
-       .top-container {
+      .top-container {
             margin: 0;
             width: 100% auto;
         }
@@ -122,6 +122,10 @@ a:hover {
         
         h2 {
             font-size: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
         }
         
         p {
@@ -137,21 +141,15 @@ a:hover {
         }
         
         .sessions {
-            width: calc(100% - 20px);
-           margin: 10px;
+            width: calc(100% - 40px);
+           margin: 20px;
         }
         
         .map {
               display: block;
               margin-left: auto;
               margin-right: auto;
-              width: 80%;
+              width: calc(80% - 40px);
         }
         
-        .form {               
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-              width: 100%;
-        }
     }
