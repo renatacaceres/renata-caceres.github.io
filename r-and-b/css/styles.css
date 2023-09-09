@@ -95,7 +95,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 550px;
-    height: 550px;
+    height: 450px;
     border: 0;
         }
 
@@ -142,7 +142,8 @@ a:hover {
         
         .sessions {
             width: calc(100% - 40px);
-           margin: 20px;
+            margin: 20px;
+            padding-top: 5px;
         }
         
         .map {
