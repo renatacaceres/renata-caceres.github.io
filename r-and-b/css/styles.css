@@ -90,6 +90,15 @@ a:hover {
   width: 50%;
 }
 
+ .map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450;
+    border: 0;
+        }
+
 .bottom-container {
   background-color: #DAE7E4;
   line-height: 2;
