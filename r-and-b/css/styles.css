@@ -99,6 +99,18 @@ a:hover {
     border: 0;
         }
 
+.btn {
+    border: none;
+    background-color: #E32D0E;
+    color: white;
+    text-decoration: bold;
+    font-family: 'Amatic SC', cursive;
+    padding: 14px 28px;
+    font-size: 35px;
+    cursor: pointer;
+    display: inline-block;
+}
+
 .bottom-container {
   background-color: #DAE7E4;
   line-height: 2;
