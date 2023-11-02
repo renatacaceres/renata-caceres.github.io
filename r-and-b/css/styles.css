@@ -77,6 +77,14 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.bands {
+ width: 30%;
+ height: 30%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 .intro {
   margin: 50px auto;
   text-align: center;
