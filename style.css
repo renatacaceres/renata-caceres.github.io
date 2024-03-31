@@ -130,7 +130,7 @@ table, td, th {
 
  /* For mobile phones: */
  
-@media screen (max-width:600px) {
+@media (max-width:600px) {
   	#body {
   		margin: 0;
   		padding: 10px;
