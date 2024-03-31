@@ -179,7 +179,7 @@ table, td, th {
 	
  	table {
  	  	padding: 5px;
- 	  	margin: 0 5px;
+ 	  	margin: 0 auto;
 		max-width: 90%;
 		display: block;
 		overflow-x: auto;
@@ -188,7 +188,6 @@ table, td, th {
 	
 	td, th {
  	  	padding: 5px;
- 	  	margin: 0 auto;
 		max-width: 100%;
 		font-size: 0.7rem;
  }
