@@ -161,7 +161,7 @@ table, td, th {
 	}
 
 	.bass_bites_image {
-		width: 300px;
+		max-width: 200px;
 		margin: 0 5px;
 		display: block;
 	}
