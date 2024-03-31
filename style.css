@@ -171,10 +171,16 @@ table, td, th {
 		padding: 0;
 	}
 	
+	.events {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
  	table {
  	  	padding: 5px;
  	  	margin: 0 5px;
 		max-width: 90%;
+		overflow-x: scroll;
  }
 	
 	td, th {
