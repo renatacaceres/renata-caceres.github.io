@@ -136,6 +136,10 @@ table, td, th {
   		padding: 10px;
   	}
   	
+  	h1, h4 {
+  		text-align: center;
+  	}
+  	
   	.top-container {
         margin: 0;
         width: 100% auto;
@@ -161,6 +165,7 @@ table, td, th {
 	
 	.bass_bites_text {
 		width: 100%;
+		padding: 0 10px;
 	}
 	
  	table, td, th {
