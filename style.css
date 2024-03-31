@@ -171,12 +171,19 @@ table, td, th {
 		padding: 0;
 	}
 	
- 	table, td, th {
+ 	table {
  	  	padding: 5px;
  	  	margin: 0 5px;
 		max-width: 90%;
  }
- 
+	
+	td, th {
+ 	  	padding: 5px;
+ 	  	margin: 0 auto;
+		max-width: 100%;
+ }
+
+	
  	.my-img {
  		max-width: 100%;
  	}
