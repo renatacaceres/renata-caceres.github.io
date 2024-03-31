@@ -160,9 +160,9 @@ table, td, th {
 		padding: 0;
 	}
 
-	.bass_bites_image {
-		max-width: 200px;
-		margin: 0 5px;
+	.bass_bites_img {
+		max-width: 100%;
+		margin: 0 auto;
 		display: block;
 	}
 	
