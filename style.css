@@ -151,10 +151,13 @@ table, td, th {
     }
   	
   	.container {
-    	width: 100%;
+    	width: 100% auto;
     	justify-content: center;
     	margin: 0;
     	padding: 10px;
+	}
+	.content {
+		padding: 0;
 	}
 
 	.bass_bites_image {
