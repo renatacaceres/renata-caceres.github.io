@@ -183,13 +183,14 @@ table, td, th {
 		max-width: 90%;
 		display: block;
 		overflow-x: auto;
-		font-size: 0.8rem;
+		font-size: 0.7rem;
  }
 	
 	td, th {
  	  	padding: 5px;
  	  	margin: 0 auto;
 		max-width: 100%;
+		font-size: 0.7rem;
  }
 
 	
