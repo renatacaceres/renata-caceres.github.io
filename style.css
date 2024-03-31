@@ -106,7 +106,16 @@ a {
 	color: #7b403b;
 }
 
-	
+/*button {
+	text-align: center;
+	color: #7b403b;
+	font-family:didot;
+	font-size: 1.2em;
+	background-color: #fff;
+	border: transparent;
+	padding: 5px;
+}*/
+
 table, td, th {
 	height: auto;
     max-width: 100%;
@@ -121,7 +130,7 @@ table, td, th {
 
  /* For mobile phones: */
  
-@media (max-width:1000px) {
+@media (max-width:600px) {
   	#body {
   		margin: 0;
   		padding: 10px;
@@ -131,6 +140,11 @@ table, td, th {
         margin: 0;
         width: 100% auto;
     }
+    
+    main {
+    	width: 95%;
+    	margin: 0 auto;
+    }
   	
   	.container {
     	width: 100%;
@@ -139,6 +153,12 @@ table, td, th {
     	padding: 10px;
 	}
 
+	.bass_bites_image {
+		width: 100%;
+		margin: 0;
+	}
+	
+	
 	.bass_bites_text {
 		width: 100%;
 	}
