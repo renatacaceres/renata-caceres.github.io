@@ -182,7 +182,6 @@ table, td, th {
  	  	margin: 0 auto;
 		max-width: 90%;
 		display: block;
-		overflow-x: auto;
 		font-size: 0.7rem;
  }
 	
