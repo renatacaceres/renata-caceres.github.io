@@ -47,6 +47,7 @@ h4 {
 	text-align: center;
 	font-size: 1.5em;
 	color: black;
+	margin-bottom: 30px;
 }
 
 .content {
@@ -63,7 +64,8 @@ h4 {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	justify-content: center;
+	justify-content: space-between;
+	align-items: center;
 	margin: 0 auto;
 	padding: 30px;
 	}
@@ -72,7 +74,6 @@ h4 {
 	max-width: 400px;
 	border-radius: 50px;
 	align-self: center;
-	align-items: center;
 }
 
 
@@ -96,7 +97,7 @@ p {
 	font-family:didot;
 	background-color: #8FBC8F;
 	font-size: 20px;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 
 a {
@@ -120,7 +121,7 @@ table, td, th {
 
  /* For mobile phones: */
  
-@media (max-width:1200px) {
+@media (max-width:1000px) {
   	#body {
   		margin: 0;
   		padding: 10px;
