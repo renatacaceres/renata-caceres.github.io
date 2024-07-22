@@ -1,19 +1,26 @@
+html {
+	overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* background: transparent; make scrollbar transparent */
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body {
-/*	border: solid;*/
-	background-color: #fff;
+	background-color:lightgray;
 }
 
 main {
 	width: 100%;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 20px 20px;
 	border-radius: 10px;
-	background-color:lightgray;
 }
 
 #body {
@@ -51,13 +58,10 @@ h4 {
 }
 
 .content {
-/*	border: solid;*/
 	border-radius: 10px;
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 
 .container {
@@ -69,6 +73,16 @@ h4 {
 	margin: 0 auto;
 	padding: 30px;
 	}
+
+.cc_img {
+	display: block;
+	height: auto;
+	width: 70%;
+	align-self: center;
+	margin: 30px auto;
+	border: solid 3px transparent;
+}
+
 
 .bass_bites_img {
 	max-width: 400px;
@@ -106,34 +120,38 @@ a {
 	color: #7b403b;
 }
 
-/*button {
-	text-align: center;
-	color: #7b403b;
-	font-family:didot;
-	font-size: 1.2em;
-	background-color: #fff;
-	border: transparent;
-	padding: 5px;
-}*/
-
-table, td, th {
+table, th, td {
 	height: auto;
+	table-layout: fixed;
+	width: 90%;
     max-width: 100%;
     border-collapse: collapse;
   	border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.9rem;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin: 0 auto;
     padding: 20px;
 }
 
+th, td {
+	width: 100%;
+	margin: 0 auto;
+  }
+
+th {
+	width: 250%;
+} 
+
+#bio {
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+}
  /* For mobile phones: */
  
 @media (max-width:1200px) {
   	#body {
   		margin: 0;
-  		padding: 10px;
   	}
   	
   	h1, h4 {
@@ -146,7 +164,7 @@ table, td, th {
     }
     
     main {
-    	width: 95%;
+    	width: 100%;
     	margin: 0 auto;
     }
   	
@@ -157,18 +175,23 @@ table, td, th {
     	padding: 10px;
 	}
 	.content {
-		padding: 0;
+		padding-right: 10px;
+		padding-left: 10px;
+
 	}
 
 	.bass_bites_img {
-		max-width: 200px;
+		max-width: 300px;
 		margin: 0 5px;
 	}
 	
 	
 	.bass_bites_text {
 		width: 100%;
-		padding: 0;
+		min-width: 300px;
+		
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	
 	.events {
@@ -176,10 +199,12 @@ table, td, th {
 		margin: 0 auto;
 	}
 	
- 	table {
+	/* not sure about this styling, check it later */
+ 	/* table {
  	  	padding: 5px;
  	  	margin: 0 auto;
 		max-width: 90%;
+		table-layout: fixed;
 		display: block;
 		font-size: 0.7rem;
  }
@@ -188,11 +213,11 @@ table, td, th {
  	  	padding: 5px;
 		max-width: 100%;
 		font-size: 0.7rem;
- }
+ } */
 
 	
  	.my-img {
- 		max-width: 100%;
+ 		max-width: 80%;
  	}
  
 }
