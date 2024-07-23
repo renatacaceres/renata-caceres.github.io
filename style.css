@@ -124,23 +124,14 @@ table, th, td {
 	height: auto;
 	table-layout: fixed;
 	width: 90%;
-    max-width: 100%;
-    border-collapse: collapse;
+    	max-width: 100%;
+    	border-collapse: collapse;
   	border: 2px solid rgb(200,200,200);
-    letter-spacing: 1px;
-    font-size: 0.9rem;
-    margin: 0 auto;
-    padding: 20px;
+    	letter-spacing: 1px;
+    	font-size: 0.9rem;
+    	margin: 0 auto;
+    	padding: 20px;
 }
-
-th, td {
-	width: 100%;
-	margin: 0 auto;
-  }
-
-th {
-	width: 250%;
-} 
 
 #bio {
 	padding-left: 25px;
@@ -199,22 +190,15 @@ th {
 		margin: 0 auto;
 	}
 	
-	/* not sure about this styling, check it later */
- 	/* table {
- 	  	padding: 5px;
- 	  	margin: 0 auto;
-		max-width: 90%;
-		table-layout: fixed;
-		display: block;
+ 	table, td, th {
 		font-size: 0.7rem;
+		padding: 5px;
  }
 	
-	td, th {
- 	  	padding: 5px;
-		max-width: 100%;
-		font-size: 0.7rem;
- } */
 
+ 	.cc_img {
+		width: 90%;
+ }
 	
  	.my-img {
  		max-width: 80%;
