@@ -83,19 +83,17 @@ h4 {
 	border: solid 3px transparent;
 }
 
-
 .bass_bites_img {
 	max-width: 400px;
 	border-radius: 50px;
 	align-self: center;
 }
 
-
 .bass_bites_text {
 	text-align: center;
 	align-self: center;
 	width: 40%;
-	margin: 30px auto;
+	margin: 30px auto 0 auto;
 	font-size: 1.2em;
 	padding: 0 30px;
 }
@@ -124,13 +122,13 @@ table, th, td {
 	height: auto;
 	table-layout: fixed;
 	width: 90%;
-    	max-width: 100%;
-    	border-collapse: collapse;
+    max-width: 100%;
+    border-collapse: collapse;
   	border: 2px solid rgb(200,200,200);
-    	letter-spacing: 1px;
-    	font-size: 0.9rem;
-    	margin: 0 auto;
-    	padding: 20px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #bio {
@@ -173,16 +171,15 @@ table, th, td {
 
 	.bass_bites_img {
 		max-width: 300px;
-		margin: 0 5px;
+		margin: 0 auto;
 	}
 	
 	
 	.bass_bites_text {
 		width: 100%;
 		min-width: 300px;
-		
-		padding-left: 25px;
-		padding-right: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	
 	.events {
