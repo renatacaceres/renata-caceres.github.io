@@ -191,7 +191,8 @@ table, th, td {
 	}
 	
  	table, td, th {
-		font-size: 0.7rem;
+		width: 100%;
+		font-size: 0.8rem;
 		padding: 5px;
  }
 	
